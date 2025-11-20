@@ -27,15 +27,11 @@ The goal of this project is to develop a machine learning model that accurately 
 
 ## Files & Notebooks
 
-🔗 `model_building.ipynb`: for EDA, feature transformation, and model training
-
-🔗 `mlpipeline_mlflow.ipynb`: for building pipelines, tracking with MLflow
-
-🔗 `model_evaluate.ipynb`: for test-data evaluation
-
-🔗 `preprocessing_pipeline.pkl`: serialized preprocessing pipeline
-
-🔗 `smart_premium_model.pkl`: final production model
+- 🔗 `model_building.ipynb`: for EDA, feature transformation, and model training
+- 🔗 `mlpipeline_mlflow.ipynb`: for building pipelines, tracking with MLflow
+- 🔗 `model_evaluate.ipynb`: for test-data evaluation
+- 🔗 `preprocessing_pipeline.pkl`: serialized preprocessing pipeline
+- 🔗 `smart_premium_model.pkl`: final production model
 
 ## Dataset Overview
 
@@ -86,15 +82,12 @@ In mlpipeline_mlflow.ipynb:
 
 ### ✔ Preprocessing Pipeline
 
-Built a Scikit-Learn pipeline automating:
-
-- Column dropping
-- Box-Cox transformation
-- Standard scaling
-
-### Saved as:
-
-- 📁 preprocessing_pipeline.pkl
+- Built a Scikit-Learn pipeline automating:
+    - Column dropping
+    - Box-Cox transformation
+    - Standard scaling
+- Saved as:
+    - 📁 preprocessing_pipeline.pkl
 
 ### ✔ MLflow Tracking
 
@@ -106,7 +99,6 @@ Built a Scikit-Learn pipeline automating:
 ### ✔ Model Export
 
 Final production model saved as:
-
 - 📁 smart_premium_model.pkl
 
 ## Model Evaluation (Using Test Data)
@@ -148,11 +140,9 @@ Final production model saved as:
 ## Conclusion
 
 The Smart_Premium project demonstrates a complete end-to-end ML workflow:
-
 - Data preprocessing and transformation
 - Feature scaling and Box-Cox normalization
 - Model training and evaluation on test data
 - MLflow experiment tracking (DagsHub)
 - Production-ready model deployment with Streamlit Cloud
-
 This project provides a scalable solution for real-time insurance premium prediction.
