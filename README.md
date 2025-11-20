@@ -124,7 +124,7 @@ Final production model saved as:
 - App loads both:
     - `preprocessing_pipeline.pkl`
     - `smart_premium_model.pkl`
-- [Deployed on Streamlit Cloud](https://dagshub.com/nithis127/Smart_Premium.mlflow)
+- [Deployed on Streamlit Cloud](https://smartpremium-ibje7qsuzbkufzlkxfayub.streamlit.app/)
 
 ## Streamlit Application Screenshots
 
