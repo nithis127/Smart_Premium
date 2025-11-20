@@ -78,7 +78,7 @@ In model_building.ipynb, the following steps were performed:
 
 ## ML Pipeline & MLflow (DagsHub)
 
-In mlpipeline_mlflow.ipynb:
+In `mlpipeline_mlflow.ipynb`:
 
 ### ✔ Preprocessing Pipeline
 
@@ -87,7 +87,7 @@ In mlpipeline_mlflow.ipynb:
     - Box-Cox transformation
     - Standard scaling
 - Saved as:
-    - 📁 preprocessing_pipeline.pkl
+    - 📁 `preprocessing_pipeline.pkl`
 
 ### ✔ MLflow Tracking
 
@@ -99,7 +99,7 @@ In mlpipeline_mlflow.ipynb:
 ### ✔ Model Export
 
 Final production model saved as:
-- 📁 smart_premium_model.pkl
+- 📁 `smart_premium_model.pkl`
 
 ## Model Evaluation (Using Test Data)
 
