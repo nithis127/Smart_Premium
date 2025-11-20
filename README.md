@@ -39,7 +39,7 @@ The goal of this project is to develop a machine learning model that accurately 
 - Records: 200,000
 - Features: 20 customer, lifestyle, financial, and policy attributes
 - Target Variable: Premium Amount
-- [!Note]: This is a synthetic dataset created for educational and project use.
+- Note: This is a synthetic dataset created for educational and project use.
 
 ### Dataset characteristics:
 
