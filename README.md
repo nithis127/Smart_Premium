@@ -47,7 +47,7 @@ The goal of this project is to develop a machine learning model that predicts in
 - 📦 **Records**: 200,000  
 - 🧾 **Features**: 20 customer, lifestyle, financial, and policy attributes  
 - 🎯 **Target Variable**: Premium Amount  
-- ⚠️ **Note**: Synthetic dataset created for educational purposes  
+> ⚠️ **Note**: Synthetic dataset created for educational purposes  
 
 ### 🔍 Dataset Characteristics
 
